@@ -1,6 +1,7 @@
 "use client";
 
 import { Card } from "../card/Card";
+import { Customers } from "../customers/Customers";
 import { Header } from "../header/Header";
 import { Intro } from "../intro/Intro";
 
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Header />
       <Intro />
       <Card />
+      <Customers />
     </main>
   );
 };
