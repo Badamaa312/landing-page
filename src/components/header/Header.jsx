@@ -1,9 +1,13 @@
+import Link from "next/link";
+
 export const Header = () => {
   return (
     <main className="w-full flex justify-center pt-5">
       <div className="container flex justify-between">
         <div className="flex items-center">
-          <img src="\Logo.jpg" width={150} height={36} alt="" />
+          <Link href="/">
+            <img width={150} height={36} src="/Logo.jpg" alt="" />
+          </Link>
         </div>
         <div className="flex gap-[50px] items-center">
           <p>About</p>

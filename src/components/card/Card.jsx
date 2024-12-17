@@ -4,7 +4,7 @@ import { UserIcon } from "../icons/User";
 
 export const Card = () => {
   return (
-    <main className="w-full flex justify-center">
+    <main className="max-w-[1216px] w-full h-full m-auto">
       <div className="container py-6 h-[200px] drop-shadow-lg card card-compact bg-base-100 px-[100px]">
         <div className="card-body">
           <div className="flex justify-between items-center h-full">
