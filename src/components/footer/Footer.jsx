@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <div className="bg-[image:linear-gradient(to_bottom,white_0%,white_50%,#f3f4f6_50%,#f3f4f6_100%)]">
       <div className="max-w-[1216px] w-full h-full m-auto">
-        <div className="container py-[100px]  bg-[image:linear-gradient(to_bottom,white_0%,white_50%,#f3f4f6_50%,#f3f4f6_100%)]">
-          <div className="w-full bg-white h-[233px] rounded-[10px] flex items-center justify-around ">
+        <div className="container ">
+          <div className=" bg-white h-[233px] rounded-[10px] flex items-center justify-around ">
             <div className="flex flex-col w-[420px] ">
               <p className="font-bold text-4xl ">
                 Subscribe Now for Get Special Features!
